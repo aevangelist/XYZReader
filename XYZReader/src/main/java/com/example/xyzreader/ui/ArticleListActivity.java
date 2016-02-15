@@ -17,12 +17,14 @@ import android.text.format.DateUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.xyzreader.R;
 import com.example.xyzreader.data.ArticleLoader;
 import com.example.xyzreader.data.ItemsContract;
 import com.example.xyzreader.data.UpdaterService;
+import com.squareup.picasso.Picasso;
 
 /**
  * An activity representing a list of Articles. This activity has different presentations for
@@ -143,7 +145,8 @@ public class ArticleListActivity extends ActionBarActivity implements
             mCursor.moveToPosition(position);
 
             //todo Remove this line
-            Log.d("onBindViewHolder: ", mCursor.getString(ArticleLoader.Query.TITLE));
+            //Log.d("onBindViewHolder: ", mCursor.getString(ArticleLoader.Query.TITLE));
+            Log.d("onBindViewHolder: ", mCursor.getString(ArticleLoader.Query.THUMB_URL));
 
             holder.titleView.setText(mCursor.getString(ArticleLoader.Query.TITLE));
             holder.subtitleView.setText(
@@ -152,10 +155,16 @@ public class ArticleListActivity extends ActionBarActivity implements
                             System.currentTimeMillis(), DateUtils.HOUR_IN_MILLIS,
                             DateUtils.FORMAT_ABBREV_ALL).toString());
             holder.authorView.setText(mCursor.getString(ArticleLoader.Query.AUTHOR));
-            holder.thumbnailView.setImageUrl(
+
+            Picasso.with(holder.context).load(mCursor.getString(ArticleLoader.Query.THUMB_URL)).into(holder.thumbnailView);
+
+            //Picasso.with(this.load(movieElement.getMovieBackdrop()).into(toolbarBackground));
+
+
+            /*holder.thumbnailView.setImageUrl(
                     //mCursor.getString(ArticleLoader.Query.PHOTO_URL),
                     mCursor.getString(ArticleLoader.Query.THUMB_URL),
-                    ImageLoaderHelper.getInstance(ArticleListActivity.this).getImageLoader());
+                    ImageLoaderHelper.getInstance(ArticleListActivity.this).getImageLoader());*/
             //holder.thumbnailView.setAspectRatio(mCursor.getFloat(ArticleLoader.Query.ASPECT_RATIO));
         }
 
@@ -166,14 +175,17 @@ public class ArticleListActivity extends ActionBarActivity implements
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        public DynamicHeightNetworkImageView thumbnailView;
+        public ImageView thumbnailView;
         public TextView titleView;
         public TextView subtitleView;
         public TextView authorView;
+        public Context context;
 
         public ViewHolder(View view) {
             super(view);
-            thumbnailView = (DynamicHeightNetworkImageView) view.findViewById(R.id.thumbnail);
+            context = view.getContext();
+            thumbnailView = (ImageView) view.findViewById(R.id.thumbnail);
+            //thumbnailView = (DynamicHeightNetworkImageView) view.findViewById(R.id.thumbnail);
             titleView = (TextView) view.findViewById(R.id.article_title);
             subtitleView = (TextView) view.findViewById(R.id.article_subtitle);
             authorView = (TextView) view.findViewById(R.id.article_author);
