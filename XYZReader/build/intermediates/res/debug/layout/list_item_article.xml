@@ -24,7 +24,7 @@
             android:layout_height="120dp"
             android:background="@color/photo_placeholder"
             android:scaleType="centerCrop"
-            android:adjustViewBounds="false" />
+            android:adjustViewBounds="true" />
 
         <LinearLayout
             android:orientation="vertical"
