@@ -10,7 +10,7 @@
             xmlns:app="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/MyAppbar">
+            android:id="@+id/myAppBar">
 
             <android.support.design.widget.CollapsingToolbarLayout
                 android:id="@+id/collapse_toolbar"
@@ -39,7 +39,8 @@
             </android.support.design.widget.CollapsingToolbarLayout>
 
         </android.support.design.widget.AppBarLayout>
-    
+
+
         <android.support.v4.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -58,20 +59,26 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <TextView
-                        android:id="@+id/article_title"
-                        style="@style/ArticleTitleStyle"
+                    <LinearLayout
+                        android:orientation="vertical"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
-                        android:textSize="@dimen/detail_title_text_size"
-                        android:lineSpacingMultiplier="0.9" />
+                        android:layout_height="100dp"
+                        android:background="@color/primary"
+                        android:id="@+id/titleBar">
 
-                    <TextView
-                        android:id="@+id/article_byline"
-                        style="?android:attr/textAppearanceSmall"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        <TextView
+                            android:id="@+id/article_title"
+                            style="@style/ArticleTitleStyle"
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/detail_metabar_title_bottom_padding" />
+
+                        <TextView
+                            android:id="@+id/article_byline"
+                            style="@style/ArticleByLineStyle"
+                            android:layout_width="260dp"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
 
 
                     <TextView
@@ -81,7 +88,10 @@
                         style="@style/ArticleBodyStyle"
                         android:singleLine="false"
                         android:layout_marginBottom="10dp"
-                        android:textColorLink="@color/primary_dark" />
+                        android:textColorLink="@color/primary_dark"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp" />
                 </LinearLayout>
 
             </com.example.xyzreader.ui.ObservableScrollView>
@@ -90,13 +100,15 @@
     <ImageButton android:id="@+id/share_fab"
         android:stateListAnimator="@anim/fab_state_list_anim"
         android:background="@drawable/add_fab_background"
-        android:layout_gravity="bottom|end"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:layout_marginBottom="@dimen/fab_margin"
         android:layout_width="56dp"
         android:layout_height="56dp"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:clickable="true"
         android:src="@drawable/ic_share"
+        app:layout_anchor="@id/myAppBar"
         android:elevation="@dimen/fab_elevation"
-        android:contentDescription="@string/action_share" />
+        android:contentDescription="@string/action_share"
+        app:layout_anchorGravity="bottom|right|end"/>
 
     </android.support.design.widget.CoordinatorLayout>
