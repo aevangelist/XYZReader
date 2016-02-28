@@ -81,8 +81,9 @@
     <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="photo_placeholder">#ccc</color>
-    <color name="primary">#FF3D00</color>
-    <color name="primary_dark">#DD2C00</color>
+    <color name="primary">#B71C1C</color>
+    <color name="primary_dark">#212121</color>
+    <color name="primary_dark2">#DD2C00</color>
     <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
@@ -1366,6 +1367,11 @@
     </style>
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="CollapsedToolbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textColor">#ffffff</item>
     </style>
     <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>

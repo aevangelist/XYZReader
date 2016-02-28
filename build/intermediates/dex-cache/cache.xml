@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/aevangelista/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-8281db7c44e250a0c152fc292095286d28bb8170.jar" />
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-3a784f18b3618ea290fa3f4ed09798e931176098.jar" />
     </item>
     <item
         jar="/Users/aevangelista/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.1.2/3faa9f13fb83326b8524a3f751c7c17181f9d3b3/okhttp-urlconnection-3.1.2.jar"
@@ -16,32 +16,18 @@
         <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.1.2-518bede1db8bd1d5d72d2085135fb63a7c212e40.jar" />
     </item>
     <item
+        jar="/Users/aevangelista/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-4ae9504e11a417ea3bd50939fbb99bb08caf2025.jar" />
+    </item>
+    <item
         jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/libs/internal_impl-22.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="def3eff2b7b4774d96ae15b07b3fc0111edbfe24">
         <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-91b7ecd76f2112380f8e18369b73611e0986c280.jar" />
-    </item>
-    <item
-        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
-        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-0de8af25ea3e750f5af17e0dd7229b6425ccc736.jar" />
-    </item>
-    <item
-        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
-        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-241889d2e76311fb866fdd2553b0d1232bb90fe5.jar" />
-    </item>
-    <item
-        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-05fff552147537f64e82635aab679c8ee8ba4f1a.jar" />
     </item>
     <item
         jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/classes.jar"
@@ -58,11 +44,25 @@
         <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/okhttp-3.1.2-6111d46174f8c55999ba8d1558c1277f086adc00.jar" />
     </item>
     <item
-        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/palette-v7/22.0.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-b7f979e94a9f7da2d4b2ac9de0bb5bb578f8aeff.jar" />
+        sha1="285506e1cf9d5a66878e2aab3884b3427f8734e9">
+        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-0de8af25ea3e750f5af17e0dd7229b6425ccc736.jar" />
+    </item>
+    <item
+        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-8b7221d5b8740babdaaa6ba4c6d91054491cc7ef.jar" />
+    </item>
+    <item
+        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-eb49303e1dfc7227f686ebadf9edb342dd420a3c.jar" />
     </item>
     <item
         jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/classes.jar"
@@ -72,11 +72,11 @@
         <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-8e581525c1c347aa3224e69112994a172d3b990c.jar" />
     </item>
     <item
-        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-68e6761924ff13ff26b8352c64fc2552a7376af8.jar" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-69de1cf50411a297567bdabc1669bce9b44ba7db.jar" />
     </item>
     <item
         jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/libs/volley.jar"
@@ -84,6 +84,13 @@
         revision="22.0.1"
         sha1="c68094cbd011a3f9dccbfe16e77a2cf43622e277">
         <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/volley-c78b06cb7903077513114190172a585b282ff976.jar" />
+    </item>
+    <item
+        jar="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/support-v13/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7f9cca1caa023a880b00c382bcc5c90245ae4895">
+        <dex dex="/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/pre-dexed/debug/classes-241889d2e76311fb866fdd2553b0d1232bb90fe5.jar" />
     </item>
     <item
         jar="/Users/aevangelista/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
