@@ -224,11 +224,19 @@
     <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="appbar_elevation">4dp</dimen>
+    <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="article_margin">10dp</dimen>
+    <dimen name="article_margin_top">20dp</dimen>
+    <dimen name="card_margin">4dp</dimen>
     <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.0.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
+    <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="collapse_img_height">250dp</dimen>
     <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/macro_layout.xml -->
     <eat-comment/>
     <dimen name="detail_body_bottom_margin">88dp</dimen>
@@ -264,6 +272,7 @@
     <dimen name="fab_elevation">5dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
     <dimen name="fab_press_translation_z">6dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
     <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="fab_size_mini">40dp</dimen>
@@ -287,6 +296,10 @@
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
+    <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="recycler_padding_bottom">28dp</dimen>
+    <dimen name="recycler_padding_top">60dp</dimen>
     <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <dimen name="snackbar_action_inline_max_width">128dp</dimen>
@@ -301,6 +314,12 @@
     <dimen name="snackbar_text_size">14sp</dimen>
     <dimen name="tab_max_width">264dp</dimen>
     <dimen name="tab_min_width">72dp</dimen>
+    <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="thumbnail_dimen">120dp</dimen>
+    <dimen name="title_width">260dp</dimen>
+    <dimen name="titlebar_height">100dp</dimen>
+    <dimen name="toolbar_elevation">8dp</dimen>
     <!-- From: file:/Users/aevangelista/AndroidStudioProjects/xyzreader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
